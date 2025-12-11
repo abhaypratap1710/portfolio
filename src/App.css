@@ -1,0 +1,42 @@
+.app {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+main {
+  position: relative;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #0095ff 0%, #ff0080 100%);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #0077cc 0%, #cc0066 100%);
+}
+
+::selection {
+  background: rgba(0, 149, 255, 0.3);
+  color: white;
+}
