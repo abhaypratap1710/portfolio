@@ -30,9 +30,9 @@ function Navbar() {
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
         <a href="#hero" className="logo">
-          <span className="logo-bracket">{'<'}</span>
-          <span className="logo-text">Abhay</span>
-          <span className="logo-bracket">{'/>'}</span>
+       
+          <span className="logo-text">Abhay | Portfolio</span>
+          
         </a>
 
         <ul className={`nav-menu ${isMobileMenuOpen ? 'active' : ''}`}>

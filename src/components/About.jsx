@@ -68,7 +68,7 @@ function About() {
                 <div className="code-content">
                   <pre>
 {`const developer = {
-  name: "Your Name",
+  name: "Abhay Pratap Singh ",
   role: "Full Stack Developer",
   skills: [
     "React", "Node.js",
